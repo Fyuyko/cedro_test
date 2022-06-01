@@ -1,0 +1,182 @@
+@media (max-width: 1032px) {
+   .nav-item.phone-style span.number {
+      display: none;
+   }
+}
+
+@media (max-width: 992px) {
+   .navbar-gold {
+      display: none;
+   }
+
+   .menu__btn {
+      top: 24px;
+      right: 24px;
+   }
+
+   .nav-item a span {
+      padding: 0;
+   }
+
+   .navbar-expand-lg .navbar-collapse.collapse-style {
+      justify-content: center;
+      justify-content: flex-end;
+   }
+
+   .navbar-nav {
+      flex-direction: row;
+   }
+
+   .navbar-nav .nav-link {
+      padding: 8px;
+   }
+
+   .navbar-nav-style {
+      align-items: flex-start;
+      padding-right: 16px;
+   }
+
+   .navbar>.container-fluid {
+      flex-wrap: nowrap;
+   }
+
+   .col-md-9 {
+      flex: auto;
+   }
+}
+
+@media (max-width: 768px) {
+   .main__profile {
+      flex-direction: column;
+   }
+
+   .main__menu {
+      border: none;
+   }
+
+   .main__menu-items {
+      display: flex;
+      padding: 8px 0;
+      margin: 0;
+      justify-content: space-between; 
+      position: relative; 
+   }
+
+   .main__menu-items::after {
+      content: '';
+      position: absolute;
+      height: 1px;
+      background-color: #EBEBEB;
+      bottom: 0;
+      left: -200px;
+      width: 200%;
+   }
+
+   .main__menu-items > div {
+      display: flex;
+   }
+
+   .main__menu-items a.first {
+      padding-right: 1rem;
+   }
+
+   .main__block-title {
+      font-size: 35px;
+      padding: 32px 0 0 0;
+      margin: 0;
+   }
+
+   .main__block-title::after,
+   .main__profile::after {
+      display: none;
+   }
+
+   .profile__title {
+      margin: 0 0 32px 0;
+   }
+
+   .profile__info, .profile__password {
+      padding: 32px 0;
+      
+   }
+
+   .profile__info::after, 
+   .profile__password::after {
+      bottom: 0;
+      left: -50px;
+      width: 200%;
+   }
+
+   .save__changes {
+      padding: 32px 0 64px 0;
+      text-align: center;
+   }
+
+   .save__changes button {
+      width: 97%;
+   }
+
+   .products {
+      margin: 0 0 64px 0;
+      padding: 0 0 32px 0;
+      position: relative;
+   }
+
+   .products__header {
+      display: block; 
+      margin-left: 16px;     
+   }
+
+   .products__link-catalog {
+      position: absolute;
+      bottom: 0;
+   }
+
+   .products__cards {
+      margin-left: 16px;
+   }
+
+   .menu__nav {
+      flex-direction: column;
+   }
+
+   .menu__column-style {
+      padding-bottom: 40px;
+   }
+
+   .menu__column-style ul li {
+      padding-top: 8px;
+   }
+
+   .footer__links {
+      flex-direction: column;
+   }
+
+   .footer__links > div {
+      padding-bottom: 16px;
+   }
+
+   .footer__links > div:last-child {
+      padding-bottom: 0;
+   }
+
+   .offer {
+      padding: 40px 16px 64px;
+   }
+
+
+   .hamburger-menu .menu__nav {
+      align-items: flex-start;
+   }
+
+}
+
+@media (max-width: 580px) {
+   .menu__nav {
+      padding: 64px 16px 0;
+   }
+
+   .footer__links {
+      padding: 32px 16px;
+   }
+}

@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'PF Regal Display Pro';
+    src: local('PF Regal Display Pro Medium Italic'), local('PF-Regal-Display-Pro-Medium-Italic'),
+        url('PFRegalDisplayPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}

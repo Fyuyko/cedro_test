@@ -1,0 +1,138 @@
+/* Header */
+
+.navbar-brand svg:hover {
+   fill: #E7DCBA;
+   transition: all .4s;
+}
+
+.navbar-light .navbar-gold .nav-link:hover  {
+   color: #D0BC7A;
+   transition: all .4s;
+}
+
+.navbar-light .navbar-black .nav-link:hover  {
+   color: #21242E; 
+   stroke: #21242E;
+   transition: all .4s ease-in;
+}
+
+/* Main */
+
+.main__menu-items .active {
+   color: #D0BC7A;
+}
+
+.products__link-catalog:hover > span,
+.products__link-catalog:hover svg {
+   color: #D0BC7A;
+   stroke: #D0BC7A;
+   transition: all .4s;
+}
+
+.save__changes button:hover {
+   background-color: #D0BC7A;
+   transition: all .4s;
+}
+
+.products__like svg:hover {
+   fill: #A6A7AB;
+   transition: all .4s;
+}
+
+.products__like svg.active {
+   fill: #D0BC7A;
+   transition: all .4s;
+}
+
+.profile__password .mb-3 {
+   position: relative;
+}
+
+.password-control {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	stroke: #A6A7AB;
+}
+
+.password-control:hover {
+   stroke: #21242E;
+   transition: all .4s;
+}
+
+.password-control.view {
+	background: url(../img/main/eye.svg) 0 0 no-repeat;
+}
+
+.password-control.view .password-control svg {
+   stroke: #A6A7AB;
+}
+
+.card:hover {
+   border: 1px #A6A7AB solid;
+   transition: all .4s;
+}
+
+.card:hover .card-body > .card-title {
+   color: #D0BC7A;
+   transition: all .4s;
+}
+
+.menu__nav-title:hover {
+   color: #D0BC7A;
+   transition: all .4s;
+}
+
+.profile__info input::-webkit-input-placeholder:hover {
+   color: #4C4E56;  
+}
+
+.profile__info input:focus {
+   border: none;
+   background-color: #F7F7F7;
+}
+
+.profile__info input:focus {
+   color: #21242E;
+   border: none;
+}
+
+.profile__info input::-webkit-input-placeholder:focus {
+   color: #21242E;
+   border: none;
+}
+
+.profile__info input::-webkit-input-placeholder:active {
+   color: #21242E;   
+   border: none;
+}
+
+/* Footer */
+
+footer .menu__nav li:hover {
+   color: #7d7d7d;
+   transition: all .4s;
+}
+
+.menu__nav li.menu__nav-hover:hover,
+.menu__nav li.menu__nav-hover:hover svg {
+   color: #D0BC7A;
+   stroke: #D0BC7A;
+   transition: all .4s;
+}
+
+.footer__links-rights:hover,
+.footer__links-signature:hover,
+.footer__links-signature:hover svg {
+   color: rgba(255, 255, 255, 1);
+   stroke: rgba(255, 255, 255, 1);
+   transition: all .4s;
+}
+
+.footer__link:hover {
+   border: 1px solid #D0BC7A;
+   transition: all .4s;
+}
